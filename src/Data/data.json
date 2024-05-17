@@ -1,0 +1,284 @@
+[{
+    "id" : 1,
+    "keyOfSearch": "msi",
+    "title" : "MSI Bravo 15",
+    "Specification" : {
+        "processor" : "Up to AMD Ryzen™ 7 5000 H-Processors",
+        "opertingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon™ RX 5500M with 4GB GDDR6",
+        "display" : "15.6 inch FHD (1920x1080), 144Hz, IPS-Level",
+        "memory" : "16GB DDR4-3200 2 Slots",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black Panther",
+        "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
+    },
+    "price" : "Rp. 9.890.000,00",
+    "image" : "/img/MSI-Bravo-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual " 
+},
+{
+    "id" : 2,
+    "title" : "ROG Strix G15",
+    "Specification" : {
+        "processor" : "AMD Ryzen™ 7 6800H/HS Mobile Processor (8-core/16-thread, 20MB cache, up to 4.7 GHz max boost)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "NVIDIA® GeForce RTX™ 3050 Laptop GPU",
+        "display" : "15,6-inci FHD (1920 x 1080) 16:9 level-IPS anti-glare display",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black",
+        "All" : "AMD Ryzen™ 7 6800H / Intel® Iris Xe Graphics"
+    },
+    "price" : "Rp. 15.200.000,00",
+    "image" : "/img/ROG-Strix-g15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual "
+},
+{
+    "id" : 3,
+    "title" : "Dell XPS 13 Plus",
+    "Specification" : {
+        "processor" : "12th Generation Intel® Core™ i7-1260P (18MB Cache, up to 4.7 GHz, 12 cores)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "Intel® Iris Xe Graphics",
+        "display" : "13.4 inch, 3.5K 3456x2160, 60Hz, OLED, Touch, Anti-Reflect, 400 nit, InfinityEdge",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Platinum Silver",
+        "All" : "Intel® Core™ i7-1260P / Intel® Iris Xe Graphics"
+    },
+    "price" : "Rp. 43.930.400,00",
+    "image" : "/img/Dell-XPS-13-Plus.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual "
+},
+{
+    "id" : 4,
+    "title" : "HP Pavilion x360",
+    "Specification" : {
+        "processor" : "Intel® Core™ i3-1315U (up to 4.5 GHz with Intel® Turbo Boost Technology, 10 MB L3 cache, 6 cores, 8 threads)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "Intel® UHD Graphics",
+        "display" : "14 inch diagonal FHD touch display",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Natural silver",
+        "All" : "Intel® Core™ i3-1315U / Intel® UHD Graphics"
+    },
+    "price" : "Rp. 9.279.000,00",
+    "image" : "/img/HP-Pavilion-x360.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual "
+},
+{
+    "id" : 5,
+    "title" : "ASUS TUF a15",
+    "Specification" : {
+        "processor" : "AMD Ryzen™ 9 7940HS Mobile Processor (8-core/16-thread, 16MB L3 cache, up to 5.2 GHz max boost)",
+        "operatingSystem" : "Windows 11 Home, 64-bit",
+        "videoGrapich" : "NVIDIA® GeForce RTX™ 4070 Laptop GPU, 2225MHz* at140W (2175MHz Boost Clock+50MHz OC, 115W+25W Dynamic Boost), 8GB GDDR6",
+        "display" : "15.6-inch, FHD (1920 x 1080) 16:9, Value IPS-level, Anti-glare display,",
+        "memory" : "8GB DDR5-4800 SO-DIMM x 2, Max Capacity:32GB, Support dual channel memory",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black",
+        "All" : "AMD Ryzen™ 9 7940HS / NVIDIA® GeForce RTX™ 4070"
+    },
+    "price" : "Rp. 13.499.000,00",
+    "image" : "/img/Asus-TUF-a15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual "
+},
+{
+    "id" : 6,
+    "title" : "Lenovo Ideapad 5i",
+    "Specification" : {
+        "processor" : "Up to 13th Gen Intel® Core™ i7 processor",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "NVIDIA® GeForce RTX™ 4050 laptop GPU",
+        "display" : "13.4 inch, 3.5K 3456x2160, 60Hz, OLED, Touch, Anti-Reflect, 400 nit, InfinityEdge",
+        "memory" : " 32GB LPDDR5",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Platinum Silver",
+        "All" : "13th Gen Intel® Core™ i7 / NVIDIA® GeForce RTX™ 4050"
+    },
+    "price" : "Rp. 13.407.400,00",
+    "image" : "/img/Lenovo-Ideapad-5i-Pro.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual "
+},
+{
+    "id" : 7,
+    "title" : "Axioo Pongo 725",
+    "Specification" : {
+        "processor" : "Intel® Core™ i7-12650H (10 Cores, 16 Threads, TDP:45 W)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "NVIDIA® GeForce RTX ™ 2050",
+        "display" : "15.6 inch (16:9) 144Hz Display / Resolution: FHD (1920 x 1080)",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black",
+        "All" : "Intel® Core™ i7-12650H / NVIDIA® GeForce RTX ™ 2050"
+    },
+    "price" : "Rp. 10.799.000,00",
+    "image" : "/img/Axioo-Pongo-725.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual "
+},
+{
+    "id" : 8,
+    "title" : "HP Elitebook 645",
+    "Specification" : {
+        "processor" : "AMD Ryzen 7 PRO 5875U (16 MB L3 cache, 8 cores, and 16 threads)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon Graphics",
+        "display" : "14 inch diagonal, FHD, UWVA, eDP with PSR, antiglare, narrow bezel",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Platinum Silver",
+        "All" : "AMD Ryzen 7 PRO 5875U / AMD Radeon Graphics"
+    },
+    "price" : "Rp. 18.500.000,00",
+    "image" : "/img/HP-Elitbook-645-g9.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual "
+},
+{
+    "id" : 9,
+    "title" : "Dell Alienware m16",
+    "Specification" : {
+        "processor" : "13th Gen Intel® Core™i7 13650HX (14-Core, 24MB L3 Cache, up to 4.9GHz Max Turbo)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "NVIDIA® GeForce RTX™ 4050, 6 GB GDDR6",
+        "display" : "16 inch QHD+ (2560 x 1600) 240Hz, 3ms, ComfortView Plus, NVIDIA G-SYNC + DDS, 100% DCI-P3 color gamut",
+        "memory" : "16GB, 2x8GB, DDR5, 4800MHz",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Dark Metallic Moon",
+        "All" : "Intel® Core™i7 13650HX / NVIDIA® GeForce RTX™ 4050"
+    },
+    "price" : "Rp. 25.699.000,00",
+    "image" : "/img/Dell-Alienware-m16.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual"
+},
+{
+    "id" : 10,
+    "title" : "Lenovo LOQ 15",
+    "Specification": {
+        "processor" : "Intel® Core™ i7-14700HX",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "NVIDIA® GeForce RTX® 4060 Laptop GPU",
+        "display" : "16 inch, 3.5K 3456x2160, 60Hz, OLED, Touch, Anti-Reflect, 400 nit, InfinityEdge",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Platinum Silver",
+        "All" : "Intel® Core™ i7-14700HX / NVIDIA® GeForce RTX® 4060"
+    },
+    "price": "Rp. 15.399.000,00",
+    "image": "/img/Lenovo-LOQ-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual"
+},
+{
+    "id" : 11,
+    "title" : "MSI Thin GF63",
+    "Specification": {
+        "processor" : "12th Gen Intel® Core™ i7-12650H processor 10 cores (6 P-cores + 4 E-cores), Max Turbo Frequency 4.7 GHz",
+        "operatingSystem" : "Windows 11 Home (MSI recommends Windows 11 Pro for business.)",
+        "videoGrapich" : "NVIDIA® GeForce RTX™ 3050 Laptop GPU",
+        "display" : "15.6 inch FHD(1920x1080), 144Hz Refresh Rate, IPS-Level",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Platinum Silver",
+        "All" : "Intel® Core™ i7-12650H / NVIDIA® GeForce RTX® 3050"
+    },
+    "price": "Rp. 10.149.000,00",
+    "image": "/img/MSI-Thin-GF63.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual"
+},
+{
+    "id" : 12,
+    "title" : "Redmibook 15",
+    "Specification": {
+        "processor" : "11th Generation Intel® Core™ i3-1115G4 (up to 4.1 GHz, 2 Cores, 4 Threads, 6 MB Cache)",
+        "operatingSystem" : "Windows 10 Home, 64-bit",
+        "videoGrapich" : "Intel® UHD Graphics",
+        "display" : "Tipe Layar: 15.6” FH, Resolusi: 1920 x 1080",
+        "memory" : "DDR4 8 GB 3200MHz",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Classic Black",
+        "All" : "Intel® Core™ i3-1115G4 / Intel® UHD Graphics"
+    },
+    "price": "Rp. Rp7.967.000,00",
+    "image": "/img/Redmibook-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual"
+},{
+    "id" : 13,
+    "title" : "Zenbook 13 OLED",
+    "Specification": {
+        "processor" : "AMD Ryzen™ 7 6800U Mobile Processor (8-core/16-thread, 16MB cache, up to 4.7 GHz max boost)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon™ Graphics",
+        "display" : "13.3-inch, 3K (2880 x 1800) OLED 16:10 aspect ratio, 0.2ms response time, 60Hz refresh rate, 550nits HDR peak brightness",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Ponder Blue",
+        "All" : "AMD Ryzen™ 7 6800U / AMD Radeon™ Graphics"
+    },
+    "price": "Rp. 16.899.000,00",
+    "image": "/img/Asus-Zenbook-13-OLED.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual"
+},{
+    "id" : 14,
+    "title" : "ThinkPad X1 Yoga",
+    "Specification": {
+        "processor" : "Up to Intel vPro®, an Intel® Evo™ Design with 13th Gen Intel® Core™ i7 processor",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "Intel® Iris Xe Graphics",
+        "display" : "14 inch WQUXGA OLED (3840 x 2400) HDR400, touchscreen, IPS with Dolby Vision® 500 nits, 100% DCI P3 Color Gamut, antireflective/antismudge, Eyesafe® certified low blue-light emissions ",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Storm Grey",
+        "All" : "Intel® Core™ i7-13700H / Intel® Iris Xe Graphics"
+    },
+    "price": "Rp. 49.699.000,00",
+    "image": "/img/Lenovo-Thinkpad-X1-Yoga.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual"
+},{
+    "id" : 15,
+    "title" : "Predator Helios 16",
+    "Specification": {
+        "processor" : "Intel® Core™ i9-13900HX 2.20GHz Tetracosa-inti (24 Inti)",
+        "operatingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "NVIDIA® GeForce RTX® 4070 Laptop GPU",
+        "display" : "16 inch, 3.5K 3456x2160, 60Hz, OLED, Touch, Anti-Reflect, 400 nit, InfinityEdge",
+        "memory" : "16GB, LPDDR5, 5200 MHz, integrated, dual channel",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Helios Black",
+        "All" : "Intel® Core™ i9-13900HX / NVIDIA® GeForce RTX® 4070"
+    },
+    "price": "Rp. 37.999.000,00",
+    "image": "/img/Helios-16.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual"
+}]
+

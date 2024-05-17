@@ -1,0 +1,36 @@
+[{
+    "id" : 1,
+    "image" : "img/msi-logo.png",
+    "href" : "https://id.msi.com/"
+},
+{
+    "id" : 2,
+    "image" : "img/asus-logo.png",
+    "href" : "https://www.asus.com/id/"
+},
+{
+    "id": 3,
+    "image": "img/lenovo-logo.png",
+    "href" : "https://www.lenovo.com/id/id/pc/?orgRef=https%253A%252F%252Fwww.google.com%252F"
+},
+{
+    "id": 4,
+    "image": "/img/dell-logo.png",
+    "href" : "https://www.dell.com/en-id"
+},
+{
+    "id": 5,
+    "image": "/img/hp-logo.png",
+    "href" : "https://www.hp.com/id-id/shop/?intel_sem&jumpid=ps_id_ga_st_se_cm016876_con_x&gad_source=1&gclid=CjwKCAjwl4yyBhAgEiwADSEjeGqtReN3YyhlXd7G-rA0t-561ZXEBImmVaU8erjV-lytTedPzBM60hoCeIwQAvD_BwE&gclsrc=aw.ds"
+},
+{
+    "id": 6,
+    "image": "/img/xiaomi-logo.png",
+    "href" : "https://www.mi.co.id/id/event/xiaomi-55-event/?utm_campaign=micom_id&utm_source=google&utm_medium=paid-search&utm_type=1&utm_id=1394&gad_source=1&gclid=CjwKCAjwl4yyBhAgEiwADSEjeGj9p2Rhpb-O_MXrtzF5WfrLyITURSpCfvA-up6RBPJsrfvb18_GJRoC5lwQAvD_BwE"
+},
+{
+    "id": 7,
+    "image": "/img/axioo-logo.png",
+    "href" : "https://www.axiooworld.com/"
+}]
+
