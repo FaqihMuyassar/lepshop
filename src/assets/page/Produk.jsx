@@ -6,6 +6,10 @@ import data from "../../Data/data.json";
 import { useState } from "react";
 
 const Product = () => {
+  const handleAddToCart = (id) => {
+    const selectedItem = data.find(item => item.id === id);
+    setCart([...cart, selectedItem]);
+  };
   const [content, setContent] = useState("Semua")
   const hendle = content
   const [tampilkan, setTampilkan] = useState(data.slice(0, 10).map((items, index) => {
