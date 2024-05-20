@@ -6,14 +6,28 @@ import data from "../../Data/data.json";
 import { useState } from "react";
 
 const Product = () => {
+  const handleAddToCart = (id) => {
+    const selectedItem = data.find(item => item.id === id);
+    setCart([...cart, selectedItem]);
+  };
+  const [content, setContent] = useState("Semua")
+  const hendle = content
   const [tampilkan, setTampilkan] = useState(data.slice(0, 10).map((items, index) => {
     return (<Card key={index} {...items} />)
   }));
   const handle = tampilkan
-  const handler = function () {
-    setTampilkan(data.map((items, index) => {
-      return <Card key={index} {...items} />;
-    }))
+  const handler = () => {
+    if (content === "Semua") {
+      setContent("Lebih Sedikit");
+      setTampilkan(data.map((items, index) => {
+        return <Card key={index} {...items} />;
+      }));
+    } else {
+      setContent("Semua");
+      setTampilkan(data.slice(0, 10).map((items, index) => {
+        return <Card key={index} {...items} />;
+      }));
+    }
   };
   return (
     <>
@@ -68,7 +82,7 @@ const Product = () => {
               className="border border-black rounded-md py-2 w-64 text-lg font-semibold"
               onClick={handler}
             >
-              Tampilkan Semua
+              Tampilkan {content}
             </button>
           </div>
         </div>

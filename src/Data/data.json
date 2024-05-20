@@ -280,5 +280,105 @@
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
+},
+{
+    "id" : 16,
+    "keyOfSearch": "msi",
+    "title" : "MSI Bravo 15",
+    "Specification" : {
+        "processor" : "Up to AMD Ryzen™ 7 5000 H-Processors",
+        "opertingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon™ RX 5500M with 4GB GDDR6",
+        "display" : "15.6 inch FHD (1920x1080), 144Hz, IPS-Level",
+        "memory" : "16GB DDR4-3200 2 Slots",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black Panther",
+        "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
+    },
+    "price" : "Rp. 9.890.000,00",
+    "image" : "/img/MSI-Bravo-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual " 
+},
+{
+    "id" : 17,
+    "keyOfSearch": "msi",
+    "title" : "MSI Bravo 15",
+    "Specification" : {
+        "processor" : "Up to AMD Ryzen™ 7 5000 H-Processors",
+        "opertingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon™ RX 5500M with 4GB GDDR6",
+        "display" : "15.6 inch FHD (1920x1080), 144Hz, IPS-Level",
+        "memory" : "16GB DDR4-3200 2 Slots",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black Panther",
+        "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
+    },
+    "price" : "Rp. 9.890.000,00",
+    "image" : "/img/MSI-Bravo-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual " 
+},
+{
+    "id" : 18,
+    "keyOfSearch": "msi",
+    "title" : "MSI Bravo 15",
+    "Specification" : {
+        "processor" : "Up to AMD Ryzen™ 7 5000 H-Processors",
+        "opertingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon™ RX 5500M with 4GB GDDR6",
+        "display" : "15.6 inch FHD (1920x1080), 144Hz, IPS-Level",
+        "memory" : "16GB DDR4-3200 2 Slots",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black Panther",
+        "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
+    },
+    "price" : "Rp. 9.890.000,00",
+    "image" : "/img/MSI-Bravo-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual " 
+},
+{
+    "id" : 19,
+    "keyOfSearch": "msi",
+    "title" : "MSI Bravo 15",
+    "Specification" : {
+        "processor" : "Up to AMD Ryzen™ 7 5000 H-Processors",
+        "opertingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon™ RX 5500M with 4GB GDDR6",
+        "display" : "15.6 inch FHD (1920x1080), 144Hz, IPS-Level",
+        "memory" : "16GB DDR4-3200 2 Slots",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black Panther",
+        "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
+    },
+    "price" : "Rp. 9.890.000,00",
+    "image" : "/img/MSI-Bravo-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual " 
+},
+{
+    "id" : 20,
+    "keyOfSearch": "msi",
+    "title" : "MSI Bravo 15",
+    "Specification" : {
+        "processor" : "Up to AMD Ryzen™ 7 5000 H-Processors",
+        "opertingSystem" : "Windows 11 Pro, 64-bit",
+        "videoGrapich" : "AMD Radeon™ RX 5500M with 4GB GDDR6",
+        "display" : "15.6 inch FHD (1920x1080), 144Hz, IPS-Level",
+        "memory" : "16GB DDR4-3200 2 Slots",
+        "storage" : "512G M.2 PCIe Gen 4 NVMe Solid State Drive 1TB M.2 PCIe Gen 4 NVMe Solid State Drive",
+        "color" : "Black Panther",
+        "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
+    },
+    "price" : "Rp. 9.890.000,00",
+    "image" : "/img/MSI-Bravo-15.png",
+    "location" : "Jakarta",
+    "rating" : 4.5,
+    "sold" : "10+ terjual " 
 }]
 
