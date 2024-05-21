@@ -8,4 +8,3 @@ export const BrandCard = ({id, image, href}) => {
     </>
   );
 };
-image
