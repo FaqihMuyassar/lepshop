@@ -1,15 +1,17 @@
+import Image from "next/image";
+
 export const Banner = () => {
   return (
     <>
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
-          <img
+          <Image alt="image" width={10} height={10}
             src="/img/Banner1.png"
             className="w-full"
           />
         </div>
         <div id="item2" className="carousel-item w-full">
-          <img
+          <Image alt="image" width={10} height={10}
             src="/img/Banner2.png"
             className="w-full"
           />

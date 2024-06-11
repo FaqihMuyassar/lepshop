@@ -1,6 +1,7 @@
 import { IoCartOutline } from "react-icons/io5";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export const Navigasibar = () => {
   const [isDark, setIsDark] = useState(false);
@@ -14,18 +15,18 @@ export const Navigasibar = () => {
       <div className="navbar bg-base-100 md:px-24 py-4 dark:bg-grey-500 fixed top-0 w-full z-50">
         <div className="navbar-start">
           <div className="flex gap-12 items-center text-lg font-semibold">
-            <Link href={"/"}>
-              <img src="/img/logo.png" className="w-10" />
+            <Link href={"/lepshop/"}>
+              <Image alt={"image"} width={10} height={10} src="/lepshop/img/logo.png" className="w-10" />
             </Link>
             <div className="hidden md:block">
               <div className="flex gap-4">
-                <Link href={"/product"} className="dark:text-white">
+                <Link href={"/lepshop/product"} className="dark:text-white">
                   Produk
                 </Link>
-                <Link href={"/news"} className="dark:text-white">
+                <Link href={"/lepshop/news"} className="dark:text-white">
                   Berita
                 </Link>
-                <Link href={"/dukungan"} className="dark:text-white">
+                <Link href={"/lepshop/dukungan"} className="dark:text-white">
                   Dukungan
                 </Link>
               </div>
@@ -64,22 +65,22 @@ export const Navigasibar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 flex gap-2"
             >
               <li>
-                <Link href={"/product"} className="text-xl">
+                <Link href={"/lepshop/product"} className="text-xl">
                   Produk
                 </Link>
               </li>
               <li>
-                <Link href={"/news"} className="text-xl">
+                <Link href={"/lepshop/news"} className="text-xl">
                   Berita
                 </Link>
               </li>
               <li>
-                <Link href={"/dukungan"} className="text-xl">
+                <Link href={"/lepshop/dukungan"} className="text-xl">
                   Dukungan
                 </Link>
               </li>
               <div className="flex gap-4 items-center justify-start px-3">
-                <Link href={"/cart"}>
+                <Link href={"/lepshop/cart"}>
                   <IoCartOutline size={24} />
                 </Link>
                 <label className="cursor-pointer grid place-items-center" onClick={setIsDark}>
@@ -119,8 +120,8 @@ export const Navigasibar = () => {
                   </svg>
                 </label>
                 <div className="avatar">
-                  <Link href={"/"} className="w-8 mask mask-circle">
-                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                  <Link href={"/lepshop/"} className="w-8 mask mask-circle">
+                    <Image alt={"image"} width={10} height={10} src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                   </Link>
                 </div>
               </div>
@@ -128,7 +129,7 @@ export const Navigasibar = () => {
           </div>
           <div className="hidden md:block">
             <div className="flex justify-center items-center gap-4">
-              <Link href={"/cart"}>
+              <Link href={"/lepshop/cart"}>
                 <IoCartOutline size={32} color="dark:white" />
               </Link>
               <label className="cursor-pointer grid place-items-center">
@@ -168,8 +169,8 @@ export const Navigasibar = () => {
                 </svg>
               </label>
               <div className="avatar">
-                <Link href={"/"} className="w-10 mask mask-circle">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                <Link href={"/lepshop/"} className="w-10 mask mask-circle">
+                  <Image alt={"image"} width={10} height={10} src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                 </Link>
               </div>
             </div>
