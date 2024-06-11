@@ -1,15 +1,15 @@
 [{
     "id" : 1,
-    "image" : "/img/Customer-Service-Online.png",
+    "image" : "lepshop/img/Customer-Service-Online.png",
     "title" : "Customer Service Online"
 },
 {
     "id" : 2,
-    "image" : "/img/Service.png",
+    "image" : "lepshop/img/Service.png",
     "title" : "Service"
 },
 {
     "id" : 3,
-    "image" : "/img/Garansi.png",
+    "image" : "lepshop/img/Garansi.png",
     "title" : "Garansi"
 }]

@@ -13,7 +13,7 @@
         "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
     },
     "price" : "Rp. 9.890.000",
-    "image" : "/img/MSI-Bravo-15.png",
+    "image" : "/lepshop/img/MSI-Bravo-15.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual " 
@@ -32,7 +32,7 @@
         "All" : "AMD Ryzen™ 7 6800H / Intel® Iris Xe Graphics"
     },
     "price" : "Rp. 15.200.000",
-    "image" : "/img/ROG-Strix-g15.png",
+    "image" : "/lepshop/img/ROG-Strix-g15.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual "
@@ -51,7 +51,7 @@
         "All" : "Intel® Core™ i7-1260P / Intel® Iris Xe Graphics"
     },
     "price" : "Rp. 43.930.400",
-    "image" : "/img/Dell-XPS-13-Plus.png",
+    "image" : "/lepshop/img/Dell-XPS-13-Plus.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual "
@@ -70,7 +70,7 @@
         "All" : "Intel® Core™ i3-1315U / Intel® UHD Graphics"
     },
     "price" : "Rp. 9.279.000",
-    "image" : "/img/HP-Pavilion-x360.png",
+    "image" : "/lepshop/img/HP-Pavilion-x360.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual "
@@ -89,7 +89,7 @@
         "All" : "AMD Ryzen™ 9 7940HS / NVIDIA® GeForce RTX™ 4070"
     },
     "price" : "Rp. 13.499.000",
-    "image" : "/img/Asus-TUF-a15.png",
+    "image" : "/lepshop/img/Asus-TUF-a15.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual "
@@ -108,7 +108,7 @@
         "All" : "13th Gen Intel® Core™ i7 / NVIDIA® GeForce RTX™ 4050"
     },
     "price" : "Rp. 13.407.400",
-    "image" : "/img/Lenovo-Ideapad-5i-Pro.png",
+    "image" : "/lepshop/img/Lenovo-Ideapad-5i-Pro.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual "
@@ -127,7 +127,7 @@
         "All" : "Intel® Core™ i7-12650H / NVIDIA® GeForce RTX ™ 2050"
     },
     "price" : "Rp. 10.799.000",
-    "image" : "/img/Axioo-Pongo-725.png",
+    "image" : "/lepshop/img/Axioo-Pongo-725.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual "
@@ -146,7 +146,7 @@
         "All" : "AMD Ryzen 7 PRO 5875U / AMD Radeon Graphics"
     },
     "price" : "Rp. 18.500.000",
-    "image" : "/img/HP-Elitbook-645-g9.png",
+    "image" : "/lepshop/img/HP-Elitbook-645-g9.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual "
@@ -165,7 +165,7 @@
         "All" : "Intel® Core™i7 13650HX / NVIDIA® GeForce RTX™ 4050"
     },
     "price" : "Rp. 25.699.000",
-    "image" : "/img/Dell-Alienware-m16.png",
+    "image" : "/lepshop/img/Dell-Alienware-m16.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
@@ -184,7 +184,7 @@
         "All" : "Intel® Core™ i7-14700HX / NVIDIA® GeForce RTX® 4060"
     },
     "price": "Rp. 15.399.000",
-    "image": "/img/Lenovo-LOQ-15.png",
+    "image": "/lepshop/img/Lenovo-LOQ-15.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
@@ -203,7 +203,7 @@
         "All" : "Intel® Core™ i7-12650H / NVIDIA® GeForce RTX® 3050"
     },
     "price": "Rp. 10.149.000",
-    "image": "/img/MSI-Thin-GF63.png",
+    "image": "/lepshop/img/MSI-Thin-GF63.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
@@ -222,7 +222,7 @@
         "All" : "Intel® Core™ i3-1115G4 / Intel® UHD Graphics"
     },
     "price": "Rp. Rp7.967.000",
-    "image": "/img/Redmibook-15.png",
+    "image": "/lepshop/img/Redmibook-15.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
@@ -240,7 +240,7 @@
         "All" : "AMD Ryzen™ 7 6800U / AMD Radeon™ Graphics"
     },
     "price": "Rp. 16.899.000",
-    "image": "/img/Asus-Zenbook-13-OLED.png",
+    "image": "/lepshop/img/Asus-Zenbook-13-OLED.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
@@ -258,7 +258,7 @@
         "All" : "Intel® Core™ i7-13700H / Intel® Iris Xe Graphics"
     },
     "price": "Rp. 49.699.000",
-    "image": "/img/Lenovo-Thinkpad-X1-Yoga.png",
+    "image": "/lepshop/img/Lenovo-Thinkpad-X1-Yoga.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
@@ -276,7 +276,7 @@
         "All" : "Intel® Core™ i9-13900HX / NVIDIA® GeForce RTX® 4070"
     },
     "price": "Rp. 37.999.000",
-    "image": "/img/Helios-16.png",
+    "image": "/lepshop/img/Helios-16.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual"
@@ -296,7 +296,7 @@
         "All" : "Intel® Core™ Ultra 7 / Intel® ARC™ Graphics"
     },
     "price" : "Rp. 16.499.000",
-    "image" : "/img/Acer-Swift-Go-14.png",
+    "image" : "/lepshop/img/Acer-Swift-Go-14.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual " 
@@ -316,7 +316,7 @@
         "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
     },
     "price" : "Rp. 33.299.000",
-    "image" : "/img/Lenovo-Legion-5i.png",
+    "image" : "/lepshop/img/Lenovo-Legion-5i.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual " 
@@ -336,7 +336,7 @@
         "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
     },
     "price" : "Rp. 20.999.000",
-    "image" : "/img/HP-Victus-16.png",
+    "image" : "/lepshop/img/HP-Victus-16.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual " 
@@ -356,7 +356,7 @@
         "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
     },
     "price" : "Rp. 32.999.000",
-    "image" : "/img/Dell-Latitude-7350.png",
+    "image" : "/lepshop/img/Dell-Latitude-7350.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual " 
@@ -376,7 +376,7 @@
         "All" : "AMD Ryzen 5000 H / AMD Radeon RX 5500 Graphics"
     },
     "price" : "Rp. 9.890.000",
-    "image" : "/img/MSI-Bravo-15.png",
+    "image" : "/lepshop/img/MSI-Bravo-15.png",
     "location" : "Jakarta",
     "rating" : 4.5,
     "sold" : "10+ terjual " 
