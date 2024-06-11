@@ -3,21 +3,16 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
 const Home = () => {
-  const [isLogin, setIsLogin] = useState(true)
+  const [isLogin, setIsLogin] = useState(false)
   const {push} = useRouter()
   useEffect(() => {
-    handleLogin()
-    if (isLogin === true) {
-      return;
+    const isLoginData = sessionStorage.getItem("isLogin")
+    if (isLoginData) {
+      setIsLogin(isLoginData)
     } else {
       push("/sign/login")
     }
   })
-
-  const handleLogin = () => {
-    const isLoginData = sessionStorage.getItem("isLogin")
-    setIsLogin(isLoginData)
-  }
 
   return (
     <>

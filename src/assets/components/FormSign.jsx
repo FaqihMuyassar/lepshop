@@ -1,28 +1,28 @@
 import Link from "next/link";
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const FormSign = ({ role }) => {
-  const [login, setLogin]  = useState(false);
-  console.log(login);
-useEffect(() => {
-  handleLocalstorage()
-})
+  const [login, setLogin] = useState(false);
+  useEffect(() => {
+    handleLocalstorage();
+  });
 
-const  handleLocalstorage = () => {
-  const data = sessionStorage.getItem("isLogin")
-  if(!!data === false) {
-    return sessionStorage.setItem("isLogin", JSON.stringify(login))
-  } else {
-    return sessionStorage.setItem("isLogin", JSON.stringify(login))
-  }
-}
+  const handleLocalstorage = () => {
+    const data = sessionStorage.getItem("isLogin");
+    if (!!data === false) {
+      return sessionStorage.setItem("isLogin", JSON.stringify(login));
+    } else {
+      return sessionStorage.setItem("isLogin", JSON.stringify(login));
+    }
+  };
 
   return (
     <>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero h-screen bg-greytua">
+        <img src="/img/bglogin.jpg"></img>
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <form className="card-body w-96" action={"/"}>
+            <form className="card-body w-96" action={"/"} method="post">
               <div className="text-center lg:text-left">
                 <h1 className="text-5xl font-bold">
                   {role === "login" ? "Login Now!" : "Register Now!"}
@@ -54,33 +54,41 @@ const  handleLocalstorage = () => {
                   className="input input-bordered"
                   required
                 />
-                <label className="label">
-                  <Link href="#" className="label-text-alt link link-hover">
-                    Forgot password?
-                  </Link>
-                </label>
-                <label className="label">
-                  <Link
-                    href={role === "login" ? "/sign/register" : "/sign/login"}
-                    className="label-text-alt link link-hover"
-                  >
-                    {role === "login"
-                      ? "Don't have an account?"
-                      : "Already have an account"}
-                  </Link>
+                <div className="flex justify-between items-center mb-8">
+                  <label className="label">
+                    <Link href="#" className="label-text-alt link link-hover">
+                      Forgot password?
+                    </Link>
+                  </label>
+                  <label className="label">
+                    <Link
+                      href={role === "login" ? "/sign/register" : "/sign/login"}
+                      className="label-text-alt link link-hover"
+                    >
+                      {role === "login"
+                        ? "Don't have an account?"
+                        : "Already have an account"}
+                    </Link>
+                  </label>
+                </div>
+                <label>
+                  <input type="checkbox" />
+                  {" "}  Remember me
                 </label>
               </div>
               <div className="form-control mt-6">
-                <button type="submit" onClick={role === "login" ? () => setLogin(true) : null} className="btn btn-primary">
+                <button
+                  type="submit"
+                  onClick={role === "login" ? () => setLogin(true) : null}
+                  className="btn btn-primary"
+                >
                   {role === "login" ? "Login" : "Register"}
                 </button>
               </div>
             </form>
           </div>
-            
         </div>
       </div>
-          
     </>
   );
 };

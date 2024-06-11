@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Keranjang = () => {
   const [quantity, setQuantity] = useState(1);
-  const price = 19898000;
+  const price = 43930400;
   const totalPrice = price * quantity;
 
   const handleIncrease = () => setQuantity(quantity + 1);

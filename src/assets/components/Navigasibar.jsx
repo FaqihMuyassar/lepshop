@@ -85,7 +85,7 @@ export const Navigasibar = () => {
                 <label className="cursor-pointer grid place-items-center" onClick={setIsDark}>
                   <input
                     type="checkbox"
-                    value="dracula"
+                    value="dim"
                     className="toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2"
                   />
                   <svg
@@ -134,7 +134,7 @@ export const Navigasibar = () => {
               <label className="cursor-pointer grid place-items-center">
                 <input
                   type="checkbox"
-                  value="dracula"
+                  value="dim"
                   className="toggle theme-controller bg-base-content row-start-1 col-start-1 col-span-2"
                 />
                 <svg

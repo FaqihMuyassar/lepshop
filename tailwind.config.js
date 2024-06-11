@@ -10,10 +10,11 @@ module.exports = {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "sign" : "/img/bgsign.jpg",
+        "login" : "/public/img/bglogin.jpg",
       },
       colors: {
-        gery: "#1D232A"
+        gery: "#1D232A",
+        greytua : "#676767"
       }
     },
   },
@@ -21,8 +22,8 @@ module.exports = {
     require('daisyui'),
   ],
   daisyui: {
-    themes: ["light", "dracula"],
-    darkTheme: "light",
+    themes: ["light", "dracula", "halloween", "dim"],
+    // darkTheme: "light",
     base: true,
     styled: true,
     utils: true,
