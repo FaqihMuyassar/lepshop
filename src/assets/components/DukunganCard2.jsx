@@ -7,7 +7,7 @@ const DukunganCard2 = ( {id,image,title,height, width} ) => {
           <img src={image} className="w-full h-full" />
         </div>
         <div className="px-4 h-1/4">
-          <p className="md:text-lg text-sm font-bold">
+          <p className="md:text-lg text-sm font-bold py-2">
             {title}
           </p>
         </div>

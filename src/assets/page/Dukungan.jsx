@@ -7,9 +7,9 @@ const Dukungan = () => {
   return (
     <div>
       <Navigasibar />
-      <div className="flex flex-col">
+      <div className="flex flex-col py-24">
         <div className="flex md:px-80 w-full py-12 flex-col md:flex-row gap-6 md:gap-0 px-2">
-          <div className="md:w-2/3 w-full h-full">
+          <div className="md:w-2/3 w-full h-full dark:text-white">
             <DukunganCard1
               id={1}
               title={"Customer Service Online"}
@@ -18,7 +18,7 @@ const Dukungan = () => {
               height={"md:h-[560px] h-80"}
             />
           </div>
-          <div className="md:w-1/3 h-1/2 flex md:flex-col flex-row w-full gap-6">
+          <div className="md:w-1/3 h-1/2 flex md:flex-col flex-row w-full gap-6 dark:text-white">
           <DukunganCard2
               id={2}
               title={"Service"}

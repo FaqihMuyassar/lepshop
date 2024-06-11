@@ -64,17 +64,17 @@ const Keranjang = () => {
         </div>
       </div>
       <div className="md:pt-24 pt-12 pb-12 md:px-64 px-4">
-        <div className="bg-white w-full md:h-32 h-20 shadow-lg flex justify-between items-center md:py-4 py-2 px-6 gap-24">
+        <div className=" w-full md:h-32 h-20 outline outline-1 rounded-md flex justify-between items-center md:py-4 py-2 px-6 gap-24">
           <div>
             <h1 className="md:text-xl text-lg font-semibold">Total</h1>
-            <p className="md:text-2xl text-xl text-black font-semibold">
+            <p className="md:text-2xl text-xl font-semibold">
               Rp. {totalPrice.toLocaleString("id-ID")}
             </p>
           </div>
           <div>
-            <button className="bg-black text-white py-2 md:px-6 px-4 md:text-lg text-base rounded-md">
+            <a href={"/checkout"}className="bg-black text-white py-2 md:px-6 px-4 md:text-lg text-base rounded-md">
               Checkout
-            </button>
+            </a>
           </div>
         </div>
       </div>

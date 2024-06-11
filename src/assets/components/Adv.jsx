@@ -7,8 +7,8 @@ export const Adv = ( {id, title, date, image, height, width} ) => {
           <img src={image} className="w-full h-full" />
         </div>
         <div className="px-4 h-1/4 pt-2">
-        <p className="text-slate-400 text-xs">{date}</p>
-          <p className="md:text-lg text-sm font-bold ">
+        <p className="text-slate-400 text-xs dark:text-white">{date}</p>
+          <p className="md:text-lg text-sm font-bold dark:text-white">
             {title}
           </p>
         </div>
