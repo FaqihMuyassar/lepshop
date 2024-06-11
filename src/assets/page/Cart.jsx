@@ -2,6 +2,8 @@ import { Navigasibar } from "../components/Navigasibar";
 import { Footer } from "../components/Footer";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 const Keranjang = () => {
   const [quantity, setQuantity] = useState(1);
@@ -21,8 +23,8 @@ const Keranjang = () => {
           <div className="flex items-center gap-4">
             <input type="checkbox" className="h-6 w-6 md:ml-4 ml-0" />
             <div className="h-24 w-[1px] md:mx-4 bg-black"></div>
-            <img
-              src="/img/Dell-XPS-13-Plus.png"
+            <Image width={10} height={10}
+              src="/lepshop/img/Dell-XPS-13-Plus.png"
               className="md:w-36 w-24 bg-slate-200 p-4 rounded-sm"
               alt="Dell XPS 13 Plus"
             />
@@ -57,7 +59,6 @@ const Keranjang = () => {
                     </button>
                   </div>
                 </div>
-                <></>
               </div>
             </div>
           </div>
@@ -72,9 +73,9 @@ const Keranjang = () => {
             </p>
           </div>
           <div>
-            <a href={"/checkout"}className="bg-black text-white py-2 md:px-6 px-4 md:text-lg text-base rounded-md">
+            <Link href={"/lepshop/checkout"}className="bg-black text-white py-2 md:px-6 px-4 md:text-lg text-base rounded-md">
               Checkout
-            </a>
+            </Link>
           </div>
         </div>
       </div>

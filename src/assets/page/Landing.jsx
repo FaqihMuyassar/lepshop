@@ -220,7 +220,7 @@ const Landing = () => {
                 title={
                   "Lenovo Hadirkan Laptop Untuk Kelas Bisnis Terbaru Yaitu ThinkPad L dan X13"
                 }
-                image={"/img/adv1.png"}
+                image={"/lepshop/img/adv1.png"}
                 date={"14/02/24"}
                 width={"md:w-[800px] w-[410px]"}
                 height={"md:h-[560px] h-80"}
@@ -230,7 +230,7 @@ const Landing = () => {
               <Adv
                 id={2}
                 title={"Asus Luncurkan dua leptop gaming layar OLED terbaru"}
-                image={"/img/adv2.png"}
+                image={"/lepshop/img/adv2.png"}
                 date={"14/02/24"}
                 width={"md:w-96 w-48"}
                 height={"md:h-full h-36"}
@@ -240,7 +240,7 @@ const Landing = () => {
                 title={
                   "Xiaomi Redmi G Pro dibanderol dibawah 20 juta, ini spesifikasinya"
                 }
-                image={"/img/adv3.png"}
+                image={"/lepshop/img/adv3.png"}
                 date={"14/02/24"}
                 width={"md:w-96 w-48"}
                 height={"md:h-full h-36"}
