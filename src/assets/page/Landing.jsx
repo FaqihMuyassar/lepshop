@@ -15,9 +15,6 @@ import { IoCartOutline } from "react-icons/io5";
 import Image from "next/image";
 
 const Landing = () => {
-useEffect (() => {
-  window.location.reload()
-})
 
   const [isDark, setIsDark] = useState(false);
   function hendle() {
