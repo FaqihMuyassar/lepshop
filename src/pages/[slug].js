@@ -14,7 +14,7 @@ const Dynamic = () => {
   console.log(query.slug);
   let page;
   switch (query.slug) {
-    case "lepshop":
+    case "/":
       page = <Landing />;
       break;
     case "product":
