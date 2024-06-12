@@ -22,7 +22,7 @@ const FormSign = ({ role }) => {
       <div className="hero h-screen bg-greytua">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-            <form className="card-body w-96" action={"/lepshop/"} method="post">
+            <form className="card-body w-96" action={"/"} method="post">
               <div className="text-center lg:text-left">
                 <h1 className="text-5xl font-bold">
                   {role === "login" ? "Login Now!" : "Register Now!"}
