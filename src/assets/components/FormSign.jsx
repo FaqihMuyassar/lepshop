@@ -20,7 +20,7 @@ const FormSign = ({ role }) => {
   return (
     <>
       <div className="hero h-screen bg-greytua">
-        <Image width={10} height={10} alt="image" src="/lepshop/img/bglogin.jpg"/>
+        <Image width={10} height={10} alt="image" src="/lepshop/img/blogin.jpeg" className="w-full h-full"/>
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <form className="card-body w-96" action={"/lepshop"} method="post">
