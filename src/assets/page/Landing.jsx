@@ -210,7 +210,7 @@ const Landing = () => {
         <div className="flex flex-col gap-6 pt-12">
           <div className="mx-auto flex justify-center items-center md:gap-[1050px] gap-56">
             <h2 className="text-2xl py-6 font-bold dark:text-white">News</h2>
-            <Link href="/lepshop/news" className="text-base dark:text-white">
+            <Link href="/news" className="text-base dark:text-white">
               Tampilkan Semua
             </Link>
           </div>

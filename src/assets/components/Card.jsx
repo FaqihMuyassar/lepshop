@@ -16,7 +16,7 @@ export const Card = ({
   sold,
 }) => {
   return (
-    <Link href={`/lepshop/detail/${id}`} className="hover:scale-105 transition-all">
+    <Link href={`/detail/${id}`} className="hover:scale-105 transition-all">
       <div
         className="shadow-xl md:w-56 w-48 md:h-full h-80 pb-3 rounded-xl overflow-hidden"
         id={id}
