@@ -73,7 +73,7 @@ const Keranjang = () => {
             </p>
           </div>
           <div>
-            <Link href={"/lepshop/checkout"}className="bg-black text-white py-2 md:px-6 px-4 md:text-lg text-base rounded-md">
+            <Link href={"/checkout"}className="bg-black text-white py-2 md:px-6 px-4 md:text-lg text-base rounded-md">
               Checkout
             </Link>
           </div>
