@@ -17,11 +17,6 @@ const FormSign = ({ role }) => {
     }
   };
 
-  function reload() {
-    role === "login" ? () => setLogin(true) : null
-    location.reload()
-  }
-
   return (
     <>
       <div className="hero h-screen bg-greytua">
@@ -84,7 +79,7 @@ const FormSign = ({ role }) => {
               <div className="form-control mt-6">
                 <button
                   type="submit"
-                  onClick={reload}
+                  onClick={role === "login" ? () => setLogin(true) : null}
                   className="btn btn-primary"
                 >
                   {role === "login" ? "Login" : "Register"}
