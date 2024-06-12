@@ -13,7 +13,7 @@ const Dukungan = () => {
             <DukunganCard1
               id={1}
               title={"Customer Service Online"}
-              image={"/img/Customer-Service-Online.png"}
+              image={"/lepshop/img/Customer-Service-Online.png"}
               width={"md:w-[800px] w-[410px]"}
               height={"md:h-[560px] h-80"}
             />
@@ -22,13 +22,13 @@ const Dukungan = () => {
           <DukunganCard2
               id={2}
               title={"Service"}
-              image={"/img/Service.png"}
+              image={"/lepsop/img/Service.png"}
               height={"h-[270px]"}
             />
             <DukunganCard2
               id={3}
               title={"Garansi"}
-              image={"/img/Garansi.png"}
+              image={"/lepshop/img/Garansi.png"}
               height={"h-[270px]"}
             />
           </div>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import data from "../../Data/dukungan.json";
 
 const DukunganCard1 = ({ id, image, title, height, width }) => {
@@ -7,7 +8,7 @@ const DukunganCard1 = ({ id, image, title, height, width }) => {
       id={id}
     >
       <div className="bg-slate-200 w-full flex justify-center items-center h-5/6">
-        <img src={image} className="w-full h-full" />
+        <Image alt="image" src={image} className="w-full h-full" />
       </div>
       <div className="px-4 h-1/6 pt-2 flex items-center justify-between">
         <p className="md:text-2xl text-lg font-bold py-4">{title}</p>
