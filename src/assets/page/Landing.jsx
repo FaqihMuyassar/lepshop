@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navigasibar } from "../components/Navigasibar";
 import { Banner } from "../components/Banner";
 import { BrandCard } from "../components/BrandCard";
@@ -15,6 +15,10 @@ import { IoCartOutline } from "react-icons/io5";
 import Image from "next/image";
 
 const Landing = () => {
+useEffect (() => {
+  window.location.reload()
+})
+
   const [isDark, setIsDark] = useState(false);
   function hendle() {
     setIsDark(!isDark)
