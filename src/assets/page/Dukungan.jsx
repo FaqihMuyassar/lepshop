@@ -22,7 +22,7 @@ const Dukungan = () => {
           <DukunganCard2
               id={2}
               title={"Service"}
-              image={"/lepsop/img/Service.png"}
+              image={"/lepshop/img/Service.png"}
               height={"h-[270px]"}
             />
             <DukunganCard2
