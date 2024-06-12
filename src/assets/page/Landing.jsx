@@ -12,6 +12,7 @@ import { Adv2 } from "../components/Adv2";
 import Link from "next/link";
 import { useState } from "react";
 import { IoCartOutline } from "react-icons/io5";
+import Image from "next/image";
 
 const Landing = () => {
   const [isDark, setIsDark] = useState(false);
@@ -25,7 +26,7 @@ const Landing = () => {
         <div className="navbar-start">
           <div className="flex gap-12 items-center text-lg font-semibold">
             <Link href={"/"}>
-              <img src="/img/logo.png" className="w-10" />
+              <Image width={10} height={10} alt="image" src="/img/logo.png" className="w-10" />
             </Link>
             <div className="hidden md:block">
               <div className="flex gap-4">
@@ -182,7 +183,7 @@ const Landing = () => {
               </label>
               <div className="avatar">
                 <Link href={"/"} className="w-10 mask mask-circle">
-                  <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                  <Image width={10} height={10} alt="image" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                 </Link>
               </div>
             </div>
@@ -209,7 +210,7 @@ const Landing = () => {
         <div className="flex flex-col gap-6 pt-12">
           <div className="mx-auto flex justify-center items-center md:gap-[1050px] gap-56">
             <h2 className="text-2xl py-6 font-bold dark:text-white">News</h2>
-            <Link href="/news" className="text-base dark:text-white">
+            <Link href="/lepshop/news" className="text-base dark:text-white">
               Tampilkan Semua
             </Link>
           </div>

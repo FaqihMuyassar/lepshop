@@ -16,7 +16,7 @@ export const Navigasibar = () => {
         <div className="navbar-start">
           <div className="flex gap-12 items-center text-lg font-semibold">
             <Link href={"/lepshop/"}>
-              <Image alt={"image"} width={10} height={10} src="/lepshop/img/logo.png" className="w-10" />
+              <Image alt={"image"} width={10} height={10} src="/lepshop/img/logo.png" className="w-10 h-10" />
             </Link>
             <div className="hidden md:block">
               <div className="flex gap-4">
