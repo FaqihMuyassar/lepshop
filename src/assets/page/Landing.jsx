@@ -191,7 +191,7 @@ const Landing = () => {
         </div>
       </div>
       <div className="min-h-screen">
-        <div className="mt-24">
+        <div className="mt-20">
           <Banner />
         </div>
         <div className="pb-4 flex flex-col gap-5 pt-12">

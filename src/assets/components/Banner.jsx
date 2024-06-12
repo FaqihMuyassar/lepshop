@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Banner = () => {
   return (
-    <>
+    <div className="w-full">
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
           <Image alt="image" width={10} height={10}
@@ -25,6 +25,6 @@ export const Banner = () => {
           2
         </a>
       </div>
-    </>
+    </div>
   );
 };
