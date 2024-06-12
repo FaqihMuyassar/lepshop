@@ -26,7 +26,7 @@ const Landing = () => {
         <div className="navbar-start">
           <div className="flex gap-12 items-center text-lg font-semibold">
             <Link href={"/"}>
-              <Image width={10} height={10} alt="image" src="/img/logo.png" className="w-10" />
+              <Image width={10} height={10} alt="image" src="/lepshop/img/logo.png" className="w-10" />
             </Link>
             <div className="hidden md:block">
               <div className="flex gap-4">

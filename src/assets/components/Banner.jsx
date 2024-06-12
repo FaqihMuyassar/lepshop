@@ -6,13 +6,13 @@ export const Banner = () => {
       <div className="carousel w-full">
         <div id="item1" className="carousel-item w-full">
           <Image alt="image" width={10} height={10}
-            src="/lepshop/img/Banner1.png"
+            src="/lepshop/img/banner1.png"
             className="w-full h-full"
           />
         </div>
         <div id="item2" className="carousel-item w-full">
           <Image alt="image" width={10} height={10}
-            src="/lepshop/img/Banner2.png"
+            src="/lepshop/img/banner2.png"
             className="w-full h-full"
           />
         </div>
