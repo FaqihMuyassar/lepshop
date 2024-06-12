@@ -42,7 +42,7 @@ const Product = () => {
         {/* Ini Buat Sidebar */}
         <div id="sideBar" className="md:w-1/12 w-full ml-4 ">
           <h3 className="text-2xl font-bold pt-12 md:pb-8 pb-4">Filter</h3>
-          <div className="flex md:flex-col gap-3">
+          <div className="hidden md:flex md:flex-col gap-3">
             <div className="text-xl font-bold">Merk</div>
             <div>
               <label className="flex items-center gap-2 mb-4" htmlFor="msi">
