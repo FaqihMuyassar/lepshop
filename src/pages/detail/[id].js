@@ -5,6 +5,7 @@ import { Navigasibar } from "../../assets/components/Navigasibar";
 import { Footer } from "../../assets/components/Footer";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import Link from "next/link";
 
 const Dynamic = ({ addToCart }) => {
   const notify = () => toast.success("Berhasil ditambah ke keranjang!");
@@ -40,9 +41,9 @@ const Dynamic = ({ addToCart }) => {
                 <button className="bg-black rounded text-white text-center w-56 py-3 text-lg" onClick={notify}>
                   Add to Cart
                 </button>
-                <a href={"/checkout"} className="bg-black rounded text-white text-center w-56 py-3 text-lg">
+                <Link href={"/lepshop/checkout"} className="bg-black rounded text-white text-center w-56 py-3 text-lg">
                   Buy Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
