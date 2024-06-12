@@ -14,44 +14,44 @@ const Dynamic = () => {
   console.log(query.slug);
   let page;
   switch (query.slug) {
-    case "/lepshop/":
+    case "/":
       page = <Landing />;
       break;
-    case "/lepshop/product":
+    case "/product":
       page = (
         <AppShell>
           <Product />
         </AppShell>
       );
       break;
-    case "/lepshop/news":
+    case "/news":
       page = (
         <AppShell>
           <News />
         </AppShell>
       );
       break;
-    case "/lepshop/cart":
+    case "/cart":
       page = (
         <AppShell>
           <Keranjang />;
         </AppShell>
       );
       break;
-    case "/lepshop/dukungan":
+    case "/dukungan":
       page = (
         <AppShell>
           <Dukungan />;
         </AppShell>
       );
       break;
-    case "/lepshop/search":
+    case "/search":
       page = (
         <AppShell>
           <Search />;
         </AppShell>
       );
-    case "/lepshop/checkout":
+    case "/checkout":
       page = (
         <AppShell>
           <Checkout />;
