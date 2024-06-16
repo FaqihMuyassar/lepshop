@@ -7,11 +7,11 @@ export const Footer = () => {
             <div id="Komunitas" className="md:w-1/5 w-full">
               <h3 className="text-xl font-bold text-gray-500 dark:text-white">KOMUNITAS</h3>
               <div className="flex flex-col gap-2 pt-2">
-                <Link className="text-sm text-gray-400 dark:text-white">Youtube</Link>
-                <Link className="text-sm text-gray-400 dark:text-white" href={"www.instagram.com/ahfary_"} >Instagram</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Facebook</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Team Gaming</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Blog</Link>
+                <a className="text-sm text-gray-400 dark:text-white">Youtube</a>
+                <a href="www.instagram.com/ahfary_" className="text-sm text-gray-400 dark:text-white">Instagram</a>
+                <a className="text-sm text-gray-400 dark:text-white">Facebook</a>
+                <a className="text-sm text-gray-400 dark:text-white">Team Gaming</a>
+                <a className="text-sm text-gray-400 dark:text-white">Blog</a>
               </div>
             </div>
             <div id="Dukungan" className="md:w-1/5 w-full">
