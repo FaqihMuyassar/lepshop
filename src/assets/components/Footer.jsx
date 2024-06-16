@@ -7,43 +7,43 @@ export const Footer = () => {
             <div id="Komunitas" className="md:w-1/5 w-full">
               <h3 className="text-xl font-bold text-gray-500 dark:text-white">KOMUNITAS</h3>
               <div className="flex flex-col gap-2 pt-2">
-                <Link className="text-sm text-gray-400 dark:text-white">Youtube</Link>
-                <Link href={"www.instagram.com/ahfary_"} className="text-sm text-gray-400 dark:text-white">Instagram</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Facebook</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Team Gaming</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Blog</Link>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Youtube</a>
+                <a target="/" href="www.instagram.com/ahfary_" className="text-sm text-gray-400 dark:text-white">Instagram</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Facebook</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Team Gaming</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Blog</a>
               </div>
             </div>
             <div id="Dukungan" className="md:w-1/5 w-full">
               <h3 className="text-xl font-bold text-gray-500 dark:text-white">DUKUNGAN</h3>
               <div className="flex flex-col gap-2 pt-2">
-                <Link className="text-sm text-gray-400 dark:text-white">Customer Service Online</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Lokasi Service</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Garansi</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Layanan Jarak Jauh</Link>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Customer Service Online</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Lokasi Service</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Garansi</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Layanan Jarak Jauh</a>
               </div>
             </div>
             <div id="Berita" className="md:w-1/5 w-full">
               <h3 className="text-lg font-bold text-gray-500 dark:text-white">BERITA</h3>
               <div className="flex flex-col gap-2 pt-2">
-                <Link className="text-sm text-gray-400 dark:text-white">Whats New</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Awards</Link>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Whats New</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Awards</a>
               </div>
             </div>
             <div id="TentangKami" className="md:w-1/5 w-full">
               <h3 className="text-xl font-bold text-gray-500 dark:text-white">TENTANG KAMI</h3>
               <div className="flex flex-col gap-2 pt-2">
-                <Link className="text-sm text-gray-400 dark:text-white">Tentang MSI</Link>
-                <Link className="text-sm text-gray-400 dark:text-white">Visi Dan Misi</Link>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Tentang MSI</a>
+                <a target="/" className="text-sm text-gray-400 dark:text-white">Visi Dan Misi</a>
               </div>
             </div>
             <div id="Address" className="md:w-1/5 w-full">
               <h3 className="text-xl font-bold text-gray-500 dark:text-white">ALAMAT</h3>
               <div className="flex flex-col gap-2 pt-2 w-56">
-                <Link className="text-sm text-gray-400 dark:text-white">
+                <a target="/" className="text-sm text-gray-400 dark:text-white">
                   Kp.Kebon Kelapa, RT.02/RW.11, Singasari, Kec.Jonggol, Bogor,
                   Jawa Barat 16830
-                </Link>
+                </a>
               </div>
             </div>
           </div>
