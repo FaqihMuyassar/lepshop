@@ -17,17 +17,17 @@ export const Footer = () => {
             <div id="Dukungan" className="md:w-1/5 w-full">
               <h3 className="text-xl font-bold text-gray-500 dark:text-white">DUKUNGAN</h3>
               <div className="flex flex-col gap-2 pt-2">
-                <a target="_blank" href="/dukungan" className="text-sm text-gray-400 dark:text-white">Customer Service Online</a>
-                <a target="_blank" href="/dukungan" className="text-sm text-gray-400 dark:text-white">Lokasi Service</a>
-                <a target="_blank" href="/dukungan" className="text-sm text-gray-400 dark:text-white">Garansi</a>
-                <a target="_blank" href="/dukungan" className="text-sm text-gray-400 dark:text-white">Layanan Jarak Jauh</a>
+                <a target="_blank" href="/lepshop/dukungan" className="text-sm text-gray-400 dark:text-white">Customer Service Online</a>
+                <a target="_blank" href="/lepshop/dukungan" className="text-sm text-gray-400 dark:text-white">Lokasi Service</a>
+                <a target="_blank" href="/lepshop/dukungan" className="text-sm text-gray-400 dark:text-white">Garansi</a>
+                <a target="_blank" href="/lepshop/dukungan" className="text-sm text-gray-400 dark:text-white">Layanan Jarak Jauh</a>
               </div>
             </div>
             <div id="Berita" className="md:w-1/5 w-full">
               <h3 className="text-lg font-bold text-gray-500 dark:text-white">BERITA</h3>
               <div className="flex flex-col gap-2 pt-2">
-                <a target="_blank" href="/news" className="text-sm text-gray-400 dark:text-white">Whats New</a>
-                <a target="_blank" href="/news" className="text-sm text-gray-400 dark:text-white">Awards</a>
+                <a target="_blank" href="/lepshop/news" className="text-sm text-gray-400 dark:text-white">Whats New</a>
+                <a target="_blank" href="/lepshop/news" className="text-sm text-gray-400 dark:text-white">Awards</a>
               </div>
             </div>
             <div id="TentangKami" className="md:w-1/5 w-full">
