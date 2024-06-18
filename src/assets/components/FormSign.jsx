@@ -83,7 +83,7 @@ const FormSign = ({ role }) => {
               <div className="form-control mt-6">
                 <button
                   type="submit" 
-                  onClick={role === "login" ? () => setLogin(true) : alert("ur acc has been created !!")}
+                  onClick={role === "login" ? () => setLogin(true) : () => alert("ur acc has been created !!")}
                   className="btn btn-primary"
                 >
                   {role === "login" ? "Login" : "Register"}
