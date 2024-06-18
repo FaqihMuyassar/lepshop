@@ -1,8 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const FormSign = ({ role }) => {
+  const notify = () => toast("Wow so easy!");
   const [login, setLogin] = useState(false);
   useEffect(() => {
     handleLocalstorage();
@@ -78,8 +82,8 @@ const FormSign = ({ role }) => {
               </div>
               <div className="form-control mt-6">
                 <button
-                  type="submit"
-                  onClick={role === "login" ? () => setLogin(true) : null}
+                  type="submit" 
+                  onClick={role === "login" ? () => setLogin(true) : alert("ur acc has been created !!")}
                   className="btn btn-primary"
                 >
                   {role === "login" ? "Login" : "Register"}
